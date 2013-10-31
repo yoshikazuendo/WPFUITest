@@ -1,0 +1,36 @@
+﻿<!-- Window コントロールにNameがあると、MUIAから正しくアクセスできない。 -->
+<Window
+	x:Class="WPFUITest.Window1"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="Window1" Height="335" Width="300">
+	<Grid>
+		<Menu Height="22" Name="Menu1" VerticalAlignment="Top" IsMainMenu="True">
+			<MenuItem Header="_File">
+				<MenuItem Header="_New" Name="FileNew"/>
+				<MenuItem Header="_Open" Name="FileOpen"/>
+				<Separator/>
+				<MenuItem Header="E_xit" Name="FileExit" InputGestureText="Alt-F4" ToolTip="Exit CryptoCalc" Click="FileExit_Click"/>
+			</MenuItem>
+			<MenuItem Header="_Help">
+				<MenuItem Header="Help Topics"/>
+				<Separator/>
+				<MenuItem Header="About CryptoCalc"/>
+			</MenuItem>
+		</Menu>
+		
+		<Label Height="25" HorizontalAlignment="Left" Margin="10,33,0,0" Name="Label1" VerticalAlignment="Top" Width="120">Enter string:</Label>
+		<TextBox MaxLength="24" Height="23" Margin="10,57,51,0" Name="TextBox1" VerticalAlignment="Top"/>
+		
+		<GroupBox Header="Crypto Type" Margin="10,91,118,127" Name="GroupBox1">
+			<StackPanel Height="Auto" Name="StackPanel1" Width="127">
+				<RadioButton Height="16" Name="RadioButton1" Width="120">MD5 Hash</RadioButton>
+				<RadioButton Height="16" Name="RadioButton2" Width="120">SHA1 Hash</RadioButton>
+				<RadioButton Height="16" Name="RadioButton3" Width="120">DES Encrypt</RadioButton>
+			</StackPanel>
+		</GroupBox>
+		
+		<Button Height="23" Margin="10,0,0,90" Name="Button1" VerticalAlignment="Bottom" Click="Button1_Click" HorizontalAlignment="Left" Width="89">Compute</Button>
+		<TextBox Height="63" Margin="10,0,51,13" Name="TextBox2" VerticalAlignment="Bottom" TextWrapping="Wrap"/>
+	</Grid>
+</Window>

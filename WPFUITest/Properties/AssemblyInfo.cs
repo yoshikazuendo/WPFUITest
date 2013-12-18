@@ -10,9 +10,9 @@ using System.Windows;
 [assembly: AssemblyTitle("WPFUITest")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Japan Business Systems Inc.")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("WPFUITest")]
-[assembly: AssemblyCopyright("Copyright © Japan Business Systems Inc. 2013")]
+[assembly: AssemblyCopyright("Copyright © aikazuyendo 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

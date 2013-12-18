@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("WPFUITestTest")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Japan Business Systems Inc.")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("WPFUITestTest")]
-[assembly: AssemblyCopyright("Copyright © Japan Business Systems Inc. 2013")]
+[assembly: AssemblyCopyright("Copyright © aikazuyendo 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

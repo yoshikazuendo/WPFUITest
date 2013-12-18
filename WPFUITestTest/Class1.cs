@@ -62,8 +62,6 @@ namespace WPFUITestTest
 		[TestCase]
 		public void DESEncryptTest()
 		{
-			string methodname = "DESEncryptTest";
-
 			// 操作するコントロールを取得する。 
 			var aeTxtInput = this.FindElement(this.aeWindow, "TextBox1");
 			var aeTxtOutput = this.FindElement(this.aeWindow, "TextBox2");
